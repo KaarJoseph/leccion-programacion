@@ -1,0 +1,22 @@
+.encabezado{
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  } 
+
+  .menu {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+  }
+  
+  
+  
+.contenido{
+  margin-top: 25px; /* Altura de la cabecera */
+  margin-bottom: 80px; /* Altura del pie de página */
+  margin-left: 300px; /* Ancho de la barra lateral izquierda */
+  margin-right: 400px; /* Ancho de la barra lateral derecha */ 
+  z-index: 1;
+  }
+

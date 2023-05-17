@@ -1,0 +1,19 @@
+<head>
+    <link rel="stylesheet" href="page2.component.css">
+  </head>
+  
+<form>
+    <label for="nombre">Nombre de la carrera:</label>
+    <input type="text" id="nombre" name="nombre" required>
+  
+    <label for="descripcion">Descripción de la carrera:</label>
+    <textarea id="descripcion" name="descripcion" required></textarea>
+  
+    <label for="duracion">Duración de la carrera:</label>
+    <input type="text" id="duracion" name="duracion" required>
+  
+    <button (click)="enviar()" type="submit">Enviar</button>
+    <br>
+    <button (click)="actualizar()" type="submit">Actualizar</button>
+  </form>
+  
